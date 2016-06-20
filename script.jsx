@@ -16,7 +16,7 @@ var Result = React.createClass({
       <div>{this.props.localCounter}</div>
       )
   }
-} )
+} );
 
 var Main = React.createClass({
   
@@ -38,6 +38,6 @@ var Main = React.createClass({
       </div>
       )
   }
-} )
+} );
 
 React.render(<Main />, document.getElementById("root"));
